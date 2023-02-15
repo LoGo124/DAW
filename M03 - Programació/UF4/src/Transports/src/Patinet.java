@@ -1,5 +1,3 @@
-package Exercicis;
-
 public class Patinet extends Maritim {
     private static int countPatinet;
     private float mVela;

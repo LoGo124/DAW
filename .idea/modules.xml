@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DAW.iml" filepath="$PROJECT_DIR$/.idea/DAW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03 - Programació/UF4/src/Eines/Eines.iml" filepath="$PROJECT_DIR$/M03 - Programació/UF4/src/Eines/Eines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03 - Programació/UF4/src/JocAsterix/JocAsterix.iml" filepath="$PROJECT_DIR$/M03 - Programació/UF4/src/JocAsterix/JocAsterix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Personas.iml" filepath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Personas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03 - Programació/UF4/src/Transports/Transports.iml" filepath="$PROJECT_DIR$/M03 - Programació/UF4/src/Transports/Transports.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF1 Desenvolupament de programari/UF1 Desenvolupament de programari.iml" filepath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF1 Desenvolupament de programari/UF1 Desenvolupament de programari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF2 Optimització de programari/UF2 Optimització de programari.iml" filepath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF2 Optimització de programari/UF2 Optimització de programari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M03 - Programació/UF4/src/UF4.iml" filepath="$PROJECT_DIR$/M03 - Programació/UF4/src/UF4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF2 Optimització de programari/exam_JavaDoc_UF2_enunciat/exam_JavaDoc_UF2_enunciat.iml" filepath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF2 Optimització de programari/exam_JavaDoc_UF2_enunciat/exam_JavaDoc_UF2_enunciat.iml" />
+    </modules>
+  </component>
+</project>

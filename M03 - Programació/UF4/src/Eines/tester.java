@@ -1,4 +1,4 @@
-package Exercicis;
+package Exercicis2;
 
 public class tester {
     /*

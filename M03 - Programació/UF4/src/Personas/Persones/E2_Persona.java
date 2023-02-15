@@ -1,4 +1,4 @@
-package Exercicis;
+package Exercicis2;
 import java.time.LocalDate;
 
 public class E2_Persona {

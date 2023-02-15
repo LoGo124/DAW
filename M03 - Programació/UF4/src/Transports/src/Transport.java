@@ -1,5 +1,3 @@
-package Exercicis;
-
 public class Transport {
     private static int totalCount;
     private String marca;
