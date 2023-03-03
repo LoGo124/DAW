@@ -1,18 +1,48 @@
-package Exercicis2;
+package setmana4;
 import java.time.LocalDate;
 
-public class E2_Persona {
+public class Persona{
     private static int totalHumans;
     private String nif;
     private String nom;
     private String dataNaixement;    
 
-    public E2_Persona(String nif, String nom, String dataNaixement){
+    public Persona(String nif, String nom, String dataNaixement){
         this.nif = nif;
         this.nom = nom;
         this.dataNaixement = dataNaixement;
         totalHumans++;
         System.out.println(totalHumans);
+    }
+    // GETTERS
+
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getNif() {
+        return nif;
+    }
+
+    public String getDataNaixement() {
+        return dataNaixement;
+    }
+
+    public static int getEdat() {
+        LocalDate. avui;
+        return ;
+    }
+
+    public static int getTotalHumans() {
+        return totalHumans;
+    }
+
+    // SETTERS
+
+
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
     @Override

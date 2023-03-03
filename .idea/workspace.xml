@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27e5b19a-688e-46fc-b90f-82cebee76ad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Exercicis/src/Exercicis/PareNoelASCII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Exercicis/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Persones/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Persones/ComparadorPersonesLongNom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/A1/DAW1-M05-UF3-Pt01_CasosUs.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/A1/Pt01_CasosUsNLG.odg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/A2/.~lock.DAW1-M05-UF3-Pt02_Activitats.doc#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/A2/DAW1-M05-UF3-Pt02_Activitats.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/A2/Pt02_Activitats.odg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/Entorns de desenvolupament M05 - UF3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DAW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Exercicis/Exercicis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Examen_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03 - Programació/UF4/src/Exercicis/AsterixVSGals/Coordenades.java" beforeDir="false" afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Exerciciss/AsterixVSGals/Coordenades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Personas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Personas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Persones/E2_Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Persones/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M03 - Programació/UF4/src/UF4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/M03 - Programació/UF4/src/UF4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF1 Desenvolupament de programari/Examen/Nacho_López_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF1 Desenvolupament de programari/Examen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/P1/DAW1-M05-UF3-Pt01_CasosUs.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/P1/Pt01_CasosUsNLG.odg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/P2/DAW1-M05-UF3-Pt02_Activitats.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M05 - Entorns de desenvolupament/UF3 Introducció al disseny OO/P2/Pt02_Activitats.odg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LlpDj0UOMzIHzdqhSqgxx9tIKl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/ignuser/Documents/DAW/M03 - Programació/UF4/src/Exercicis/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ignuser/Documents/DAW/M03 - Programació/UF4/src/Personas/Persones&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/M03 - Programació/UF4/src/Personas/Persones" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/M03 - Programació/UF4/src/JocAsterix/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Concesionari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Concesionari" />
+      <module name="Examen" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DAW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DAW" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Concesionari" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27e5b19a-688e-46fc-b90f-82cebee76ad5" name="Changes" comment="" />
+      <created>1676455406612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676455406612</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

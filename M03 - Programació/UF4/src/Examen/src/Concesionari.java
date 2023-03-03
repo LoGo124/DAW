@@ -8,7 +8,6 @@ public class Concesionari {
      *
      * */
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
         System.out.println(cotxes[0].getInfo());
         System.out.println(cotxes[1].getInfo());

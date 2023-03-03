@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collections-Supermercat/Collections-Supermercat.iml" filepath="$PROJECT_DIR$/Collections-Supermercat/Collections-Supermercat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Concessionari/Concessionari.iml" filepath="$PROJECT_DIR$/Concessionari/Concessionari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicis/Exercicis.iml" filepath="$PROJECT_DIR$/Exercicis/Exercicis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Supermercat/Supermercat.iml" filepath="$PROJECT_DIR$/Supermercat/Supermercat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UF5.iml" filepath="$PROJECT_DIR$/.idea/UF5.iml" />
+    </modules>
+  </component>
+</project>
