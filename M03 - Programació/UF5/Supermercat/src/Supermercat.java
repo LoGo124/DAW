@@ -1,12 +1,9 @@
 import java.util.ArrayList;
-
-package Supermercat;
+import Supermercat.*;
 
 public class Supermercat {
-
-    static Producte[] productes = new Producte[10];
-
-
+    static ArrayList<Producte> productes = new ArrayList<Producte>();
+    
     public static void main(String[] args){
         Producte cocaCola = new Aliment("Coca-Cola",2,10,true);
         Producte pan = new Aliment("Pan",1,20,false);
@@ -30,65 +27,47 @@ public class Supermercat {
         mostrarLlista(filtrarProductes("Llibre"));
 
         mostrarLlista(productes);
-
-
-
     }
 
     static void afegirProducte(Producte p){
-        for(int i = 0; i < productes.length; i++){
-            if(productes[i] == null){
-                productes[i] = p;
-                break;
-            }
-        }
-
+        productes.add(p);
     }
 
-    static Producte[] eliminarProducte(String n){
-        Producte[] array = new Producte[10];
-        int contador = 0;
+    static ArrayList<Producte> eliminarProducte(String n){
+        ArrayList<Producte> tmpArray = new ArrayList<Producte>();
 
-        for(int i = 0; i < productes.length; i++){
-            if(productes[i] != null){
-                if(productes[i].getNom().contains(n)){
+        for(int i = 0; i < productes.size(); i++){
+            if(productes.get(i) != null){
+                if(productes.get(i).getNom().contains(n)){
                     continue;
                 }else {
-                    array[contador] = productes[i];
-                    contador++;
+                    tmpArray.add(productes.get(i));
                 }
             }
-
         }
-
-        return array;
+        return tmpArray;
     }
 
+    static ArrayList<Producte> filtrarProductes(String tipus){
+        ArrayList<Producte> tmpArray = new ArrayList<Producte>();
 
-    static Producte[] filtrarProductes(String tipus){
-        Producte[] array = new Producte[10];
-        int contador = 0;
-
-        for(int i = 0; i < productes.length; i++){
-            if(productes[i] != null){
-                if(productes[i].getClass().getSimpleName().contains(tipus)){
-                    array[contador] = productes[i];
-                    contador++;
-                }else continue;
+        for(int i = 0; i < productes.size(); i++){
+            if(productes.get(i) != null){
+                if(productes.get(i).getClass().getSimpleName().contains(tipus)){
+                    tmpArray.add(productes.get(i));
+                } else
+                    continue;
             }
-
         }
-
-        return array;
+        return tmpArray;
     }
 
-    static void mostrarLlista(Producte[] l){
-            for(int i = 0; i < l.length; i++){
-                if(l[i] != null){
-                    System.out.println(l[i].getInfo());
+    static void mostrarLlista(ArrayList<Producte> l){
+            for(int i = 0; i < l.size(); i++){
+                if(l.get(i) != null){
+                    System.out.println(l.get(i).getInfo());
                     System.out.println();
-                }else if(l[i] == null) break;
+                }else if(l.get(i) == null) break;
             }
     }
-
 }
