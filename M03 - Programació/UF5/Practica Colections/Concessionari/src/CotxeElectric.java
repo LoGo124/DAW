@@ -1,7 +1,7 @@
-public class CotxeElectric extends Cotxe implements Autonomia, Comparable{
+public class CotxeElectric extends Cotxe implements Autonomia{
     private float capacitatBateria;
-    public CotxeElectric(String matricula, int preu,float capacitatBateria){
-        super(matricula, preu);
+    public CotxeElectric(String matricula, String model, int preu,float capacitatBateria){
+        super(matricula, model, preu);
         this.capacitatBateria = capacitatBateria;
     }
 
@@ -18,6 +18,13 @@ public class CotxeElectric extends Cotxe implements Autonomia, Comparable{
     public int getAutonomia() {
         return (int)(capacitatBateria*10);
     }
+
+    //SETTERS
+
+    public void setCapacitatBateria(float capacitatBateria) {
+        this.capacitatBateria = capacitatBateria;
+    }
+
 
     // COMPARADORS
 

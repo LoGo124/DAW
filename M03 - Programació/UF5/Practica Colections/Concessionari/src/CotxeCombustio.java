@@ -1,9 +1,9 @@
-public class CotxeCombustio extends Cotxe implements Autonomia, Comparable{
-    private int capacitatDiposit;
+public class CotxeCombustio extends Cotxe implements Autonomia{
+    private float capacitatDiposit;
     private float consum100;
 
-    public CotxeCombustio(String matricula, int preu, int capacitatDiposit, float consum100){
-        super(matricula, preu);
+    public CotxeCombustio(String matricula, String model, int preu, float capacitatDiposit, float consum100){
+        super(matricula, model, preu);
         this.capacitatDiposit = capacitatDiposit;
         this.consum100 = consum100;
     }
@@ -12,9 +12,19 @@ public class CotxeCombustio extends Cotxe implements Autonomia, Comparable{
     public String getInfo() {
         return "\nMatricula: " + getMatricula() +
                 "\nPreu: " + (Integer.toString(getPreu())) + " €" +
-                "\nCapacitat: "+(Integer.toString(capacitatDiposit))+" l" +
+                "\nCapacitat: "+(Float.toString(capacitatDiposit))+" l" +
                 "\nConsum: "+(Float.toString(consum100))+" l/100Km" +
                 "\nAutonomia: "+(Integer.toString(getAutonomia()))+" Km";
+    }
+    // SETTERS
+
+
+    public void setCapacitatDiposit(int capacitatDiposit) {
+        this.capacitatDiposit = capacitatDiposit;
+    }
+
+    public void setConsum100(float consum100) {
+        this.consum100 = consum100;
     }
 
     @java.lang.Override

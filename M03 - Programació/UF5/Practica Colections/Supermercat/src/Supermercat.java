@@ -1,10 +1,13 @@
 import java.util.ArrayList;
+import java.util.Scanner;
+
 import Supermercat.*;
 
 public class Supermercat {
     static ArrayList<Producte> productes = new ArrayList<Producte>();
     
     public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
         Producte cocaCola = new Aliment("Coca-Cola",2,10,true);
         Producte pan = new Aliment("Pan",1,20,false);
         Producte camiseta = new Roba("camiseta", 5,"rojo",'L');
@@ -27,6 +30,20 @@ public class Supermercat {
         mostrarLlista(filtrarProductes("Llibre"));
 
         mostrarLlista(productes);
+
+        System.out.println("Escoje el producto que quieres comparar: ");
+        Producte p1 = productes.get(sc.nextInt());
+        System.out.println("Escoje el producto con el que lo vas a comparar: ");
+        Producte p2 = productes.get(sc.nextInt());
+
+        int res = p1.compareTo(p2);
+        if (res == 0){
+            System.out.println("Tots dos valen el mateix.");
+        } else if (res > 0) {
+            System.out.println("El primer producte es mes car.");
+        } else if (res < 0) {
+            System.out.println("El segon producte es mes car.");
+        }
     }
 
     static void afegirProducte(Producte p){
